@@ -32,7 +32,7 @@ import java.util.List;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         btn_viewAll = findViewById(R.id.btn_viewAll);
-        btn_add = findViewById(R.id.btn_add);
+        btn_add =  findViewById(R.id.btn_add);
         btn_search = findViewById(R.id.btn_search_date);
         sw_inService = findViewById(R.id.sw_inService);
         list_viewEmployee = findViewById(R.id.lv_kpclEmploee);
@@ -46,8 +46,6 @@ import java.util.List;
 //        list_viewEmployee.setAdapter(customerArrayAdapter);
 //    }
 
-        EmployeeDetails employeeDetails=new EmployeeDetails(-1,edit_name.getText().toString(), Integer.parseInt(edit_birth.getText().toString()),sw_inService.isChecked());
-//             Toast.makeText(MainActivity.this,employeeDetails.toString(),Toast.LENGTH_LONG).show();
 
 
         btn_add.setOnClickListener(new View.OnClickListener() {
