@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">KPCL_Data_Retirement</string>
+    <string name="SearchPage">Search Page</string>
+    <string name="Add">Add</string>
+    <string name="ViewAll">View All</string>
+    <string name="InService">In Service</string>
+    <string name="EnterBirthDate">Enter Birth Date</string>
+    <string name="Name">Name</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="search">Search</string>
+</resources>
